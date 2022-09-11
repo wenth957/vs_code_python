@@ -27,5 +27,5 @@ def queue(nums, k):
     return res
 
 
-print(queue([1,3,-1,-3,5,3,6,7],3))
+print(queue([1, 3, -1, -3, 5, 3, 6, 7], 3))
 

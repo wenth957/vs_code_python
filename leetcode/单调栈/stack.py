@@ -6,9 +6,9 @@
 #
 
 def stack(nums):
-    """实现单调栈功能：打印左边离得最近的smaller
+    """实现单调栈功能:打印左边离得最近的smaller
       将左边的数存到一个栈中，然后从栈顶取元素
-      入栈过程中pop掉哪些不可能小于当前位置的数（保持一个单调递增的栈: 底-顶）
+      入栈过程中pop掉哪些不可能小于当前位置的数|保持一个单调递增的栈: 底-顶|
     """
     stack = []
     for i in range(len(nums)):
@@ -20,5 +20,5 @@ def stack(nums):
             print(-1)
         stack.append(nums[i])
 
-        
+
 stack([3, 4, 2, 7, 5])
