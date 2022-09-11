@@ -19,4 +19,6 @@ def stack(nums):
         else:
             print(-1)
         stack.append(nums[i])
+
+        
 stack([3, 4, 2, 7, 5])
